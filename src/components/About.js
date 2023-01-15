@@ -16,7 +16,7 @@ class About extends React.Component {
             <hr className="my-4" />
             <Row className="justify-content-center">
                 <Col>
-                <p className=""> Enter some cover letter bs here</p>
+                <p className=""> I am excited to start a new career in a field that allows you to collaborate with others to solve problems. </p>
                 </Col>
             </Row>
             <hr className="my-4" />
@@ -30,4 +30,6 @@ class About extends React.Component {
             </Row>
         </Jumbotron>
     }
-}
+};
+
+export default About;
