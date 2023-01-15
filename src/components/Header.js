@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import About from './About';
-import Contact from './contact';
-import Navigation from './Navigation';
-import Portfolio from './Portfolio';
-import Resume from './Resume';
+//import Contact from './contact';
+//import Navigation from './Navigation';
+//import Portfolio from './Portfolio';
+//import Resume from './Resume';
 
 function Header() {
     const [currentPage, handlePageChange] = useState("About");
@@ -12,12 +12,12 @@ function Header() {
         switch (currentPage) {
             case "About":
                 return <About />
-            case "Portfolio":
-                return <Portfolio />
-            case "Contact":
-                return <Contact />
-            case "Resume":
-                return <Resume />
+            // case "Portfolio":
+            //     return <Portfolio />
+            // case "Contact":
+            //     return <Contact />
+            // case "Resume":
+            //     return <Resume />
 
             default:
                 return <About />;
@@ -36,10 +36,10 @@ return (
                 </a>
             </div>
         </nav>
-        <Navigation
+        {/* <Navigation
         currentPage={currentPage}
         handlePageChange={handlePageChange}
-        />
+        /> */}
         <main>
             <div>{renderPage(currentPage)}</div>
         </main>

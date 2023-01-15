@@ -1,35 +1,17 @@
 import React from 'react';
-import { jumbotron, Row, Col } from 'reactstrap';
-import './style.css';
-import Resume from './Resume';
+//import profile from '../public/profile-pic.jpg';
 
-class About extends React.Component {
-
-    state = {
-        Resume
-    };
-
-    render() {
-        <Jumbotron className="m-3 text-center">
-            <h1 className="display-4">Hello Everyone!</h1>
-            <p className="lead">I am Kristy Vanatta, a junior software developer embarking on a new and exciting career!</p>
-            <hr className="my-4" />
-            <Row className="justify-content-center">
-                <Col>
-                <p className=""> I am excited to start a new career in a field that allows you to collaborate with others to solve problems. </p>
-                </Col>
-            </Row>
-            <hr className="my-4" />
-            <Row className="justify-content-center">
-                <Col xs="8">
-                    <p className="font-weight-bold">Technical Skills</p>
-                </Col>
-            </Row>
-            <Row className="justify-content-center">
-                
-            </Row>
-        </Jumbotron>
-    }
-};
+function About() {
+    return(
+        <div>
+            <p className="content is medium">Junior Software Developer</p>
+            <hr />
+            {/* <img className="profile-pic" src={profile} alt="Kristy Vanatta profile picture"/> */}
+            <p className="content is-italic mt-4">
+            I am an aspiring Junior Software Developer currently enrolled in Case Western Reserve's Full-Stack Web Development bootcamp. I look forward to my new career!
+            </p>
+        </div>
+    );
+}
 
 export default About;
