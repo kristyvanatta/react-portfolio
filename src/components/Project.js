@@ -24,10 +24,7 @@ function Project(props) {
                                     </div>
                                 </div>
 
-                                <div className="content has-text-left">
-                                    {project.description}
-                                    <br />
-                                    <div className="card">
+                                <div className="card">
                                         <footer className="card-footer">
                                             <a href={project.repo} className="card-footer-item" target="_blank" rel="noreferrer">Check out the repo</a>
                                         </footer>
@@ -35,7 +32,7 @@ function Project(props) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    
                 ))}
             </div>
         </div>

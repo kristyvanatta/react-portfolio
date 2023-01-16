@@ -1,16 +1,17 @@
-import Ract from 'react';
+import React from 'react';
+import doc from '../../src/assets/resume.pdf';
 
 function Resume() {
     return (
         <div className="columns">
             <div classNme="columns">
-                <p className="content is-medium">Résumé</p>
+                <p className="content is-medium">Resume</p>
                 <hr />
-                <a className="button is-primary" href={} target="_blank" rel="noreferrer">
+                <a className="button is-primary" href={ doc } target="_blank" rel="noreferrer">
                     <span slcassName="icon">
                         <i className="fas fa-download"></i>
                     </span>
-                    <span>Download my Résumé</span>
+                    <span>Download my Resume</span>
                 </a>
             </div>
             <div className="column">

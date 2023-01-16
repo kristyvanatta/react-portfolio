@@ -3,7 +3,7 @@ import About from './About';
 import Contact from './contact';
 import Navigation from './Navigation';
 import Portfolio from './Portfolio';
-// import Resume from './Resume';
+import Resume from './Resume';
 
 function Header() {
     const [currentPage, handlePageChange] = useState("About");
@@ -16,8 +16,8 @@ function Header() {
                 return <Portfolio />
             case "Contact":
                 return <Contact />
-            // case "Resume":
-            //     return <Resume />
+            case "Resume":
+                return <Resume />
 
             default:
                 return <About />;
@@ -28,12 +28,10 @@ return (
     <div>
         <nav className="navbar">
             <div className="navbar-brand">
-                <a
-                className="navbar-item"
-                rel="noreferrer"
-                href="https://github.com/kristyvanatta">
-                    <span className="content is-large">Kristy Vanatta</span>
-                </a>
+                <p>
+                    <strong>Kristy Vanatta</strong>
+                </p>
+                <p>Junior Software Developer</p>
             </div>
         </nav>
         <Navigation

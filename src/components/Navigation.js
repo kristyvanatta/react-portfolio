@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 
 function Navigation(props) {
     const tabs = ["About", "Portfolio", "Contact", "Resume"];
@@ -23,5 +24,8 @@ function Navigation(props) {
         </div>
     );
 }
+
+
+
 
 export default Navigation;
