@@ -45,4 +45,4 @@ function Project(props) {
 }
 
 
-export default Projects;
+export default Project;
