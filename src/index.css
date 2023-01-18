@@ -7,11 +7,12 @@ body {
 
 .navbar, .navbar-brand {
   text-align: center;
-  display: inline-block;
+  display: inline;
   width: 100%;
   background-color:  rgb(179, 129, 236);
-  
+  float: left;
 }
+
 
 .title {
   font-size: 30px;
@@ -44,12 +45,20 @@ main {
   width: 250px;
 }
 
+.project-pic {
+  width: 250px;
+}
+
 .label {
   text-align: left;
 }
 
 footer.footer {
   background-color:  rgb(179, 129, 236);
+}
+
+.footer-link {
+  display: inline;
 }
 
 ul {

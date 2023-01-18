@@ -10,7 +10,7 @@ function Project(props) {
                             <div className="card-image">
                                 <figure className="image is-4by3">
                                     <a href={project.live} target="_blank" rel="noreferrer">
-                                        <img width="75%" className="m-5" src={project.image} alt="Project Pic" />
+                                        <img width="25%" className="m-5" href={project.image} alt="Project Pic" />
                                     </a>
                                 </figure>
                             </div>
@@ -21,12 +21,13 @@ function Project(props) {
                                         <p className="title is-4" key={project.id}>
                                             {project.title}
                                         </p>
+                                        <p>{project.description}</p>
                                     </div>
                                 </div>
 
                                 <div className="card">
                                         <footer className="card-footer">
-                                            <a href={project.repo} className="card-footer-item" target="_blank" rel="noreferrer">Check out the repo</a>
+                                            <a href={project.repo} className="card-footer-item" target="_blank" rel="noreferrer">Repository</a>
                                         </footer>
                                     </div>
                                 </div>

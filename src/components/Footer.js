@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return (
         <footer className="footer">
-            <div className="content has-text-centered">
+            <div className="footer-link">
                 <p>
                     <strong>Kristy Vanatta Portfolio</strong>
                     <hr />
