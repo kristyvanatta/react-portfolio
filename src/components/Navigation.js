@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 function Navigation(props) {
     const tabs = ["About", "Portfolio", "Contact", "Resume"];
     return (
         <div>
-            <ul className="nav nav-tabs">
+            <ul className="navbar ">
                 {tabs.map((tab) =>(
                     <li
                     className={
