@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from './Project';
 
+
 const projects = [
     {
         id: 1,
@@ -12,35 +13,35 @@ const projects = [
     {
         id: 2,
         title: "E-Commerce",
-        image: "",
+        image: "src\assets\e-commerce.gif",
         repo: "https://github.com/kristyvanatta/e-commerce",
         live: "https://drive.google.com/file/d/1cslbSqJPHM_OmDDYVGtGok5hC-xzcAOa/view",
     },
     {
         id: 3,
         title: "Text-Editor",
-        image: "",
+        image: "src\assets\text-editor.gif",
         repo: "https://github.com/kristyvanatta/Progressive-Web-App",
         live: "https://afternoon-chamber-54020.herokuapp.com/",
     },
     {
         id: 4,
         title: "Password-Generator",
-        image: "",
+        image: "src\assets\password-generator.png",
         repo: "https://github.com/kristyvanatta/password-generator",
         live: "https://kristyvanatta.github.io/password-generator/",
     },
     {
         id: 5,
         title: "Weather-Dashboard",
-        image: "",
+        image: "src\assets\weather-dashboard.png",
         repo: "https://github.com/kristyvanatta/Weather-Dashboard",
         live: "https://kristyvanatta.github.io/Weather-Dashboard/",
     },
     {
         id: 6,
         title: "READme Generator",
-        image: "",
+        image: "src\assets\readme-generator.png",
         repo: "https://github.com/kristyvanatta/README_Generator",
         live: "https://drive.google.com/file/d/1LFPwUc3_FjHPuSNyoNU4tj2Gknow9FWH/view",
     },
