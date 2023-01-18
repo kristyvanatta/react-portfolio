@@ -10,7 +10,7 @@ function Project(props) {
                             <div className="card-image">
                                 <figure className="image is-4by3">
                                     <a href={project.live} target="_blank" rel="noreferrer">
-                                        <img width="25%" className="m-5" href={project.image} alt="Project Pic" />
+                                        <img className="project" src={project.image} alt="project" />
                                     </a>
                                 </figure>
                             </div>

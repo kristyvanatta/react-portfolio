@@ -40,12 +40,14 @@ main {
   margin-right: 30em;
 }
 
-.profile-pic {
+.profile {
 	clip-path: circle();
   width: 250px;
 }
 
-.project-pic {
+
+
+.project {
   width: 250px;
 }
 
