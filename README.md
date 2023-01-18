@@ -42,4 +42,4 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Links
 [Github](https://github.com/kristyvanatta/react-portfolio)
-[Deployed]()
+[Deployed]( https://kristyvanatta.github.io/react-portfolio/)
