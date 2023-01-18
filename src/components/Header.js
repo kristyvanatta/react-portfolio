@@ -28,7 +28,7 @@ return (
     <div>
         <nav className="navbar">
             <div className="navbar-brand">
-                <p>
+                <p className="title">
                     <strong>Kristy Vanatta</strong>
                 </p>
                 <p>Junior Software Developer</p>

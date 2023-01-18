@@ -43,17 +43,18 @@ function Contact() {
             <hr />
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div className="field">
-                    <label className="label" htmlFor="name">Name</label>
+                    <label className="label" htmlFor="name">Name:    </label>
                     <input className="input" type="text" name="name" defaultValue={name} onBlur={handleChange} />
                 </div>
                 <div className="field">
-                    <label className="label" htmlFor="email">Email Address</label>
-                    <input className="input" type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    <label className="label" htmlFor="message">Message: </label>
+                    <textarea className="textarea" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
                 </div>
                 <div className="field">
-                    <label className="label" htmlFor="message">Message</label>
-                    <textarea className="textarea" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
+                    <label className="label" htmlFor="email">Email:   </label>
+                    <input className="input" type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                </div>
+                
         {errorMessage && (
             <div>
             <p className="is-danger">{errorMessage}</p>

@@ -15,7 +15,7 @@ function Resume() {
                 </a>
             </div>
             <div className="column">
-                <p className="content is-medium">Skills</p>
+                <h3 className="content is-medium">Skills</h3>
                 <hr />
                 <ul>
                     <li>HTML</li>

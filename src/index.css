@@ -1,16 +1,24 @@
 body {
-  font-family: Work Sans;
+  font-family: 'segoe script';
   text-align: center;
-  background-color: aliceblue;
+  background-color: rgb(179, 129, 236);
 
 }
 
 .navbar, .navbar-brand {
   text-align: center;
-  display: block;
+  display: inline-block;
   width: 100%;
-  background-color: aliceblue;
+  background-color:  rgb(179, 129, 236);
   
+}
+
+.title {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
 }
 
 div.navbar-brand {
@@ -31,7 +39,7 @@ main {
   margin-right: 30em;
 }
 
-.my-pic {
+.profile-pic {
 	clip-path: circle();
   width: 250px;
 }
@@ -41,9 +49,16 @@ main {
 }
 
 footer.footer {
-  background-color: rgb(255, 255, 255);
+  background-color:  rgb(179, 129, 236);
 }
 
+ul {
+  list-style: none;
+}
+
+button {
+  background-color: rgb(146, 70, 233);;
+}
 
 
 

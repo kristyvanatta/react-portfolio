@@ -8,7 +8,7 @@ function Project(props) {
                     <div className="column is-half">
                         <div className="card">
                             <div className="card-image">
-                                <figure classNmae="image is-4by3">
+                                <figure className="image is-4by3">
                                     <a href={project.live} target="_blank" rel="noreferrer">
                                         <img />
                                     </a>

@@ -5,7 +5,7 @@ const projects = [
     {
         id: 1,
         title: "Note-Tracker",
-        image: "",
+        image: "src\assets\note-tracker.png",
         repo: "https://github.com/kristyvanatta/Note-Tracker",
         live: "https://rocky-temple-57637.herokuapp.com/",
     },
